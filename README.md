@@ -11,8 +11,9 @@ For actionlint: see https://github.com/rhysd/actionlint
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/s-weigand/pre-commit_mirrors-actionlint
-  rev: "v1.6.23"
-  hooks:
-    - id: actionlint
+repos:
+  - repo: https://github.com/s-weigand/pre-commit_mirrors-actionlint
+    rev: "v1.6.23"
+    hooks:
+      - id: actionlint
 ```
