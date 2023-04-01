@@ -48,7 +48,7 @@ def render_templates(tag: str) -> None:
         gh_output = os.getenv("GITHUB_OUTPUT", None)
         if gh_output is not None:
             with Path(gh_output).open("a", encoding="utf8") as f:
-                f.writelines([f"tag={tag}", f"current_version={current_version}"])
+                f.writelines([f"tag={tag}\n", f"current_version={current_version}\n"])
 
 
 if __name__ == "__main__":
