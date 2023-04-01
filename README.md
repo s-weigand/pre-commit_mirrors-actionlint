@@ -12,7 +12,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/s-weigand/pre-commit_mirrors-actionlint
-  rev: "0.0.1"
+  rev: "v1.6.23"
   hooks:
     - id: actionlint
 ```

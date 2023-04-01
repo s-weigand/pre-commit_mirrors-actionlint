@@ -4,7 +4,8 @@
   entry: actionlint
   language: golang
   language_version: "1.19"
+  minimum_pre_commit_version: "3.0.0"
   additional_dependencies:
-    [github.com/rhysd/actionlint/cmd/actionlint@0.0.1]
+    [github.com/rhysd/actionlint/cmd/actionlint@v1.6.23]
   types: ["yaml"]
   files: "^.github/workflows/"
