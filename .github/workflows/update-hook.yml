@@ -30,7 +30,7 @@ jobs:
         run: python .github/scripts/update-hook.py
 
       - name: Commit changes and create tag
-        if: ${{steps.update.outputs.tag}} != ""
+        if: ${{steps.update.outputs.tag}}
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -40,7 +40,7 @@ jobs:
           git tag -a "${{ steps.update.outputs.tag }}" -m "$MESSAGE"
 
       - name: Push changes
-        if: ${{steps.update.outputs.tag}} != ""
+        if: ${{steps.update.outputs.tag}}
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
