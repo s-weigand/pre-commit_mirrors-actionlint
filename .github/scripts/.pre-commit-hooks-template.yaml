@@ -4,6 +4,7 @@
   entry: actionlint
   language: golang
   language_version: "1.19"
+  minimum_pre_commit_version: "3.0.0"
   additional_dependencies:
     [github.com/rhysd/actionlint/cmd/actionlint@{{tag}}]
   types: ["yaml"]
