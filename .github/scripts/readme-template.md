@@ -1,3 +1,5 @@
+[//]: # "DO NOT CHANGE THIS FILE WITHOUT CHANGING .github/scripts/readme-template.md"
+
 # actionlint mirror
 
 Mirror of `actionlint` for pre-commit.
