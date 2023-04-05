@@ -6,6 +6,6 @@
   language_version: "1.19"
   minimum_pre_commit_version: "3.0.0"
   additional_dependencies:
-    [github.com/rhysd/actionlint/cmd/actionlint@v1.6.23]
+    [github.com/rhysd/actionlint/cmd/actionlint@v1.6.24]
   types: ["yaml"]
   files: "^.github/workflows/"
