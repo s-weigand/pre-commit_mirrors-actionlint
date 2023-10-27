@@ -1,5 +1,9 @@
 [//]: # "DO NOT CHANGE THIS FILE WITHOUT CHANGING .github/scripts/readme-template.md"
 
+# ⚠️ Archived
+
+This repository has been archived since [`actionlint` now has a its own `pre-commit` hooks](https://github.com/rhysd/actionlint/blob/main/.pre-commit-hooks.yaml).
+
 # actionlint mirror
 
 Mirror of `actionlint` for pre-commit.
